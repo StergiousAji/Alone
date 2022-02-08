@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5A6E18AF-FF1D-47F6-90D9-0651E1E2FC10}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Alone</RootNamespace>
+    <AssemblyName>Alone</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Alone_Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bullet.cs" />
+    <Compile Include="CustomException.cs" />
+    <Compile Include="FrmGameLevel1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGameLevel1.Designer.cs">
+      <DependentUpon>FrmGameLevel1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmGameLevel2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGameLevel2.Designer.cs">
+      <DependentUpon>FrmGameLevel2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHelp.Designer.cs">
+      <DependentUpon>FrmHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHighScores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHighScores.Designer.cs">
+      <DependentUpon>FrmHighScores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMainMenu.Designer.cs">
+      <DependentUpon>FrmMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRegistration.Designer.cs">
+      <DependentUpon>FrmRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Member.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UcHelpGuide.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UcHelpGuide.Designer.cs">
+      <DependentUpon>UcHelpGuide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zombie.cs" />
+    <EmbeddedResource Include="FrmGameLevel1.resx">
+      <DependentUpon>FrmGameLevel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmGameLevel2.resx">
+      <DependentUpon>FrmGameLevel2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHelp.resx">
+      <DependentUpon>FrmHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHighScores.resx">
+      <DependentUpon>FrmHighScores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMainMenu.resx">
+      <DependentUpon>FrmMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRegistration.resx">
+      <DependentUpon>FrmRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UcHelpGuide.resx">
+      <DependentUpon>UcHelpGuide.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="bin\Debug\MemberData.bin" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <DesignData Include="Resources\true-crimes.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Error.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tick.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zombie1_D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zombie1_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zombie1_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zombie1_U.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zombie2_D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zombie2_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zombie2_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zombie2_U.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Desert Eagle Fire Sound Effect.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Desert Eagle Reload Sound Effect.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zombie Sound Effect.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Post Apocalyptic Background - Medic Outpost.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Post Apocalyptic Background - Quarantine Area.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Post Apocalyptic Background - Ruined Statue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Malo Garcia - March of Progress.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Empty Gun Shot Sound Effect.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alone - Lvl 1 Form %28Background%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alone - Lvl 2 Form %28Background%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Character1_D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Character1_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Character1_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Character1_U.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Character2_D.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Character2_L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Character2_R.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Character2_U.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nova Shotgun Fire Sound Effect.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nova Shotgun Reload Sound Effect.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ammunition Box 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ammunition Box 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Alone_Icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

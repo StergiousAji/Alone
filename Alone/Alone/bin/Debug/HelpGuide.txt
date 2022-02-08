@@ -1,0 +1,43 @@
+					     		   ALONE
+
+
+ALONE is a zombie survival, top-down shooter game. 
+
+The aim of the game is to survive and eliminate as many zombies, that appear randomly on the map, as possible, without dying. Your score increases as you eliminate the zombies, however so does the difficulty. 
+
+When you run out of ammunition (Displayed in the bottom-right corner), Ammunition Refill Boxes will arrive at a random location on the map. Your ammunition will refill when you collect them. 
+Each time you happen to run out of ammuintion, you get a chance to receive one more box for every Ammo Box that is dropped. (1 in 10 chance in Level 1 | 1 in 30 chance in Level 2)
+
+
+REGISTRATION
+
+Name: Enter your forename and surname in the text boxes provided. Entering white spaces, punctuation/symbols or digits are invalid.
+
+Username: Enter a username, this can be anything you want unless it already in use by another member.
+
+E-mail: Enter your e-mail address here. Errors will be displayed if the e-mail address entered is invalid.
+
+Date Of Birth: Enter your date of birth. You must be over the age of 7 years to register an account and play the game.
+
+Password: Enter a password that is complex but memorable. Passwords must be at least 6 characters long and should contain at least 1 digit for a successful registration.
+
+All input fields must be completed to register an account.
+
+
+LOGIN
+
+Username: Enter the username of your account here.
+Password: Enter your password.
+
+Errors will be displayed if the username and password entered are incorrect.
+
+
+CONTROLS
+
+Movement: Press the arrow keys or 'WASD' keys to move the player through a total of 8 directions.
+
+Firing Weapon: Press the space bar key to fire the weapon you are holding. The bullet will fire in the direction you are facing.
+
+Reloading: Press 'R' to reload the current gun held. A progress bar will appear above the player indicating the amount of time to wait to reload. You cannot fire your weapon during a reload.
+
+Pause: Press 'P' or 'Escape' to pause/freeze the game. Buttons to access the main menu and the help page will appear on the form. You can unpause the game and continue where you left off by pressing any other key.

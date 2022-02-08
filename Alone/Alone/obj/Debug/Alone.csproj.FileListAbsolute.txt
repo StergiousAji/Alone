@@ -1,0 +1,63 @@
+D:\My Project\Alone\Alone\bin\Debug\Alone.exe.config
+D:\My Project\Alone\Alone\obj\Debug\Alone.exe
+D:\My Project\Alone\Alone\obj\Debug\Alone.pdb
+D:\My Project\Alone\Alone\bin\Debug\Alone.exe
+D:\My Project\Alone\Alone\bin\Debug\Alone.pdb
+D:\My Project\Alone\Alone\obj\Debug\Alone.csprojResolveAssemblyReference.cache
+D:\My Project\Alone\Alone\obj\Debug\Alone.FrmGameLevel1.resources
+D:\My Project\Alone\Alone\obj\Debug\Alone.FrmGameLevel2.resources
+D:\My Project\Alone\Alone\obj\Debug\Alone.FrmLogin.resources
+D:\My Project\Alone\Alone\obj\Debug\Alone.FrmMainMenu.resources
+D:\My Project\Alone\Alone\obj\Debug\Alone.FrmRegistration.resources
+D:\My Project\Alone\Alone\obj\Debug\Alone.Properties.Resources.resources
+D:\My Project\Alone\Alone\obj\Debug\Alone.csproj.GenerateResource.Cache
+C:\Users\Jovin\Documents\My Project\Alone\Alone\bin\Debug\Alone.exe.config
+C:\Users\Jovin\Documents\My Project\Alone\Alone\bin\Debug\Alone.exe
+C:\Users\Jovin\Documents\My Project\Alone\Alone\bin\Debug\Alone.pdb
+C:\Users\Jovin\Documents\My Project\Alone\Alone\obj\Debug\Alone.csprojAssemblyReference.cache
+C:\Users\Jovin\Documents\My Project\Alone\Alone\obj\Debug\Alone.FrmGameLevel1.resources
+C:\Users\Jovin\Documents\My Project\Alone\Alone\obj\Debug\Alone.FrmGameLevel2.resources
+C:\Users\Jovin\Documents\My Project\Alone\Alone\obj\Debug\Alone.FrmLogin.resources
+C:\Users\Jovin\Documents\My Project\Alone\Alone\obj\Debug\Alone.FrmMainMenu.resources
+C:\Users\Jovin\Documents\My Project\Alone\Alone\obj\Debug\Alone.FrmRegistration.resources
+C:\Users\Jovin\Documents\My Project\Alone\Alone\obj\Debug\Alone.Properties.Resources.resources
+C:\Users\Jovin\Documents\My Project\Alone\Alone\obj\Debug\Alone.csproj.GenerateResource.cache
+C:\Users\Jovin\Documents\My Project\Alone\Alone\obj\Debug\Alone.csproj.CoreCompileInputs.cache
+C:\Users\Jovin\Documents\My Project\Alone\Alone\obj\Debug\Alone.exe
+C:\Users\Jovin\Documents\My Project\Alone\Alone\obj\Debug\Alone.pdb
+E:\My Project\Alone\Alone\bin\Debug\Alone.exe.config
+E:\My Project\Alone\Alone\bin\Debug\Alone.exe
+E:\My Project\Alone\Alone\bin\Debug\Alone.pdb
+E:\My Project\Alone\Alone\obj\Debug\Alone.csprojAssemblyReference.cache
+E:\My Project\Alone\Alone\obj\Debug\Alone.FrmGameLevel1.resources
+E:\My Project\Alone\Alone\obj\Debug\Alone.FrmGameLevel2.resources
+E:\My Project\Alone\Alone\obj\Debug\Alone.FrmLogin.resources
+E:\My Project\Alone\Alone\obj\Debug\Alone.FrmMainMenu.resources
+E:\My Project\Alone\Alone\obj\Debug\Alone.FrmRegistration.resources
+E:\My Project\Alone\Alone\obj\Debug\Alone.Properties.Resources.resources
+E:\My Project\Alone\Alone\obj\Debug\Alone.csproj.GenerateResource.cache
+E:\My Project\Alone\Alone\obj\Debug\Alone.csproj.CoreCompileInputs.cache
+E:\My Project\Alone\Alone\obj\Debug\Alone.exe
+E:\My Project\Alone\Alone\obj\Debug\Alone.pdb
+D:\My Project\Alone\Alone\obj\Debug\Alone.FrmHelp.resources
+E:\My Project\Alone\Alone\obj\Debug\Alone.FrmHelp.resources
+C:\Users\Jovin\Documents\My Project\Alone\Alone\obj\Debug\Alone.FrmHIghScores.resources
+D:\My Project\Alone\Alone\obj\Debug\Alone.FrmHighScores.resources
+C:\Users\Jovin\Documents\My Project\Alone\Alone\obj\Debug\Alone.FrmHelpGuide.resources
+C:\Users\Jovin\Documents\My Project (AS)\Alone\Alone\bin\Debug\Alone.exe.config
+C:\Users\Jovin\Documents\My Project (AS)\Alone\Alone\bin\Debug\Alone.exe
+C:\Users\Jovin\Documents\My Project (AS)\Alone\Alone\bin\Debug\Alone.pdb
+C:\Users\Jovin\Documents\My Project (AS)\Alone\Alone\obj\Debug\Alone.csprojAssemblyReference.cache
+C:\Users\Jovin\Documents\My Project (AS)\Alone\Alone\obj\Debug\Alone.FrmGameLevel1.resources
+C:\Users\Jovin\Documents\My Project (AS)\Alone\Alone\obj\Debug\Alone.FrmGameLevel2.resources
+C:\Users\Jovin\Documents\My Project (AS)\Alone\Alone\obj\Debug\Alone.FrmHelpGuide.resources
+C:\Users\Jovin\Documents\My Project (AS)\Alone\Alone\obj\Debug\Alone.FrmHighScores.resources
+C:\Users\Jovin\Documents\My Project (AS)\Alone\Alone\obj\Debug\Alone.FrmLogin.resources
+C:\Users\Jovin\Documents\My Project (AS)\Alone\Alone\obj\Debug\Alone.FrmMainMenu.resources
+C:\Users\Jovin\Documents\My Project (AS)\Alone\Alone\obj\Debug\Alone.FrmRegistration.resources
+C:\Users\Jovin\Documents\My Project (AS)\Alone\Alone\obj\Debug\Alone.Properties.Resources.resources
+C:\Users\Jovin\Documents\My Project (AS)\Alone\Alone\obj\Debug\Alone.csproj.GenerateResource.cache
+C:\Users\Jovin\Documents\My Project (AS)\Alone\Alone\obj\Debug\Alone.exe
+C:\Users\Jovin\Documents\My Project (AS)\Alone\Alone\obj\Debug\Alone.pdb
+C:\Users\Jovin\Documents\My Project (AS)\Alone\Alone\obj\Debug\Alone.csproj.CoreCompileInputs.cache
+C:\Users\Jovin\Documents\My Project (AS)\Alone\Alone\obj\Debug\Alone.UcHelpGuide.resources
